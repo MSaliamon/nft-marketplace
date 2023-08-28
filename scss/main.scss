@@ -3,7 +3,7 @@
 @import './vars';
 
 body {
-    background-color: #2B2B2B;
+    background-color: $dark;
 }
 .header {
     display: flex;
@@ -29,5 +29,15 @@ body {
     line-height: 140%;
 }
 .btn {
-    
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background-color:  $purple;
+    @include work-sans-normal( $white, $font-first, $fw-normal);
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
 }
