@@ -3,6 +3,7 @@
 @import './vars';
 
 body {
+    width: 100%;
     background-color: $dark;
 }
 .header {
@@ -40,4 +41,29 @@ body {
     text-align: center;
     font-size: 16px;
     line-height: 140%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 130px;
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+.footer__text {
+    @include work-sans-normal-gray($light-grey, $font-first, $fw-small);
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
