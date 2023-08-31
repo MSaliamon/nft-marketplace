@@ -3,7 +3,7 @@
     font-family: Work Sans;
     font-weight: $fw-normal;
 }
-@mixin work-sans-light( $white, $font-first, $fw-normal) {
+@mixin work-sans-light( $white, $font-first, $fw-small) {
     color: $white;
     font-family: Work Sans;
     font-weight: $fw-small;

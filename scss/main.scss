@@ -69,7 +69,7 @@ body {
     font-size: 67px;
 }
 .section1__text {
-    @include work-sans-light( $white, $font-first, $fw-normal);
+    @include work-sans-light( $white, $font-first, $fw-small);
     font-size: 22px;
     line-height: 160%;
     text-transform: capitalize;
@@ -77,7 +77,7 @@ body {
 .section1__info-box {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
 }
 .section1__info-textbox {
     display: flex;
@@ -89,7 +89,7 @@ body {
     line-height: 140%;
 }
 .section1__info-text2 {
-    @include work-sans-light( $white, $font-first, $fw-normal);
+    @include work-sans-light( $white, $font-first, $fw-small);
     font-size: 24px;
     line-height: 160%;
 }
@@ -102,6 +102,8 @@ body {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
+    background-color: $Background---Secondary;
+    border-radius: 0px 0px 20px 20px;
 }
 .section1__nft-text {
     @include work-sans-normal( $white, $font-first, $fw-normal);
@@ -117,10 +119,44 @@ body {
     gap: 12px;
 }
 .section1__profile-text {
-    @include work-sans-light( $white, $font-first, $fw-normal);
+    @include work-sans-light( $white, $font-first, $fw-small);
     font-size: 16px;
     line-height: 140%;
 }
+.section2 {
+    display: flex;
+    flex-direction: column;
+    .container {
+        gap: 60px;
+    }
+}
+.section2__text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section2__title {
+    @include work-sans-light( $white, $font-first, $fw-normal);
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.section2__text {
+    @include  work-sans-light( $white, $font-first, $fw-small);
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.section2__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.section2__box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 
 
 

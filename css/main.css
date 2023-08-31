@@ -238,7 +238,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 30px;
+  gap: 40px;
 }
 
 .section1__info-textbox {
@@ -287,6 +287,8 @@ body {
           flex-direction: column;
   gap: 10px;
   padding: 20px;
+  background-color: #3B3B3B;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .section1__nft-text {
@@ -320,6 +322,69 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+}
+
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section2 .container {
+  gap: 60px;
+}
+
+.section2__text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.section2__title {
+  color: #fff;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.section2__text {
+  color: #fff;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.section2__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+
+.section2__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
 }
 
 .footer {
