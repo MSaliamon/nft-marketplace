@@ -277,7 +277,7 @@ body {
           flex-direction: column;
 }
 
-.section1__nft-textbox {
+.nft-textbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,7 +291,7 @@ body {
   border-radius: 0px 0px 20px 20px;
 }
 
-.section1__nft-text {
+.nft-text {
   color: #fff;
   font-family: Work Sans;
   font-weight: 600;
@@ -305,7 +305,7 @@ body {
   text-transform: capitalize;
 }
 
-.section1__nft-profile {
+.nft-profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,7 +316,7 @@ body {
   gap: 12px;
 }
 
-.section1__profile-text {
+.profile-text {
   color: #fff;
   font-family: Work Sans;
   font-weight: 400;
@@ -334,6 +334,10 @@ body {
           flex-direction: column;
 }
 .section2 .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 60px;
 }
 
@@ -373,7 +377,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 30px;
+  gap: 120px;
 }
 
 .section2__box {
@@ -385,6 +389,73 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 15px;
+}
+
+.section2__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+.number-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #A259FF;
+}
+
+.number-box__text {
+  color: #fff;
+  font-family: Space Mono;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.section2__img {
+  margin-left: 50px;
+  width: 100%;
+}
+
+.section2__img-cosmo {
+  width: 47%;
+  margin-left: 50px;
+}
+
+.section2__img-cosmo2 {
+  width: 20%;
+}
+
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer {
