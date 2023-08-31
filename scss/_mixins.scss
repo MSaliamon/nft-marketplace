@@ -1,15 +1,20 @@
 @mixin work-sans-normal( $white, $font-first, $fw-normal) {
-    color: #FFF;
+    color: $white;
     font-family: Work Sans;
-    font-weight: 600;
+    font-weight: $fw-normal;
+}
+@mixin work-sans-light( $white, $font-first, $fw-normal) {
+    color: $white;
+    font-family: Work Sans;
+    font-weight: $fw-small;
 }
 @mixin work-sans-normal-gray($light-grey, $font-first, $fw-small) {
-    color: #CCC;
+    color: $light-grey;
     font-family: Work Sans;
-    font-weight: 400;
+    font-weight: $fw-small;
 }
 @mixin space-mono-white( $white, $font-last, $fw-big) {
-    color: #FFF;
-    font-family: Space Mono;
-    font-weight: 700;
+    color: $white;
+    font-family: $font-last;
+    font-weight: $fw-big;
 }

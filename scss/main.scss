@@ -42,6 +42,88 @@ body {
     font-size: 16px;
     line-height: 140%;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 50px;
+}
+.section1 {
+    .btn {
+        width: 50%;
+    }
+}
+.section1__textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 39%;
+}
+.section1__title {
+    @include work-sans-normal( $white, $font-first, $fw-normal);
+    line-height: 110%;
+    font-size: 67px;
+}
+.section1__text {
+    @include work-sans-light( $white, $font-first, $fw-normal);
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.section1__info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.section1__info-textbox {
+    display: flex;
+    flex-direction: column;
+}
+.section1__info-text {
+    @include space-mono-white( $white, $font-last, $fw-big);
+    font-size: 28px;
+    line-height: 140%;
+}
+.section1__info-text2 {
+    @include work-sans-light( $white, $font-first, $fw-normal);
+    font-size: 24px;
+    line-height: 160%;
+}
+.section1__nft-box {
+    display: flex;
+    flex-direction: column;
+}
+.section1__nft-textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.section1__nft-text {
+    @include work-sans-normal( $white, $font-first, $fw-normal);
+    display: flex;
+    align-self: stretch;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.section1__nft-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.section1__profile-text {
+    @include work-sans-light( $white, $font-first, $fw-normal);
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+
 .footer {
     display: flex;
     flex-direction: column;
