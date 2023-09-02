@@ -28,3 +28,8 @@
     font-family: $font-last;
     font-weight: $fw-small;
 }
+@mixin space-mono-gray-small( $grey, $font-last, $fw-small) {
+    color: $grey;
+    font-family: $font-last;
+    font-weight: $fw-small;
+}
